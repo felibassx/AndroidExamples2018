@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">To Do List</string>
+    <string name="action_setting">Setting</string>
+    <string name="action_add">Add</string>
+    <string name="title_hint">Title</string>
+    <string name="description_hint">Description</string>
+    <string name="idea_checkbox">Idea</string>
+    <string name="important_checkbox">Important</string>
+    <string name="todo_checkbox">To Do</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="ok_button">Ok</string>
+    <string name="sound_checkbox">On Off</string>
+    <string name="setting_title">Setting</string>
+    <string name="sound_title">Sound</string>
+    <string name="animation_title">Animation</string>
+    <string name="rb_fast">Fast</string>
+    <string name="rb_slow">Slow</string>
+    <string name="rb_none">None</string>
+</resources>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/text_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/app_name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7">
+
+        <Button
+            android:id="@+id/btn_fadein"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="@dimen/width_btn"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/btn_fadeout"
+            android:layout_marginStart="@dimen/margin_start"
+            android:text="FADE IN"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btn_fadeout"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="@dimen/width_btn"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="FADE OUT"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btn_fadeinout"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="@dimen/width_btn"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/btn_fadein"
+            android:layout_marginEnd="20dp"
+            android:text="FADE IN OUT"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btn_zoomin"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="@dimen/width_btn"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/btn_fadein"
+            android:layout_marginTop="67dp"
+            android:text="ZOOM IN"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btn_zoomout"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="@dimen/width_btn"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/btn_fadeinout"
+            android:layout_alignTop="@+id/btn_zoomin"
+            android:text="ZOOM OUT"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btn_leftright"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="@dimen/width_btn"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/btn_fadein"
+            android:layout_marginTop="126dp"
+            android:text="LEFT RIGHT"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btn_rightleft"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="@dimen/width_btn"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/btn_fadeinout"
+            android:layout_alignTop="@+id/btn_leftright"
+            android:text="RIGHT LEFT"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btn_bounce"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="@dimen/width_btn"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/btn_fadein"
+            android:layout_marginBottom="124dp"
+            android:text="BOUNCE"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btn_topbottom"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="@dimen/width_btn"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/btn_leftright"
+            android:layout_centerHorizontal="true"
+            android:text="TOP BOTTOM"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btn_flash"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="@dimen/width_btn"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/btn_fadeinout"
+            android:layout_alignTop="@+id/btn_bounce"
+            android:text="FLASH"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btn_rotateleft"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="@dimen/width_btn"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/btn_fadein"
+            android:layout_marginBottom="63dp"
+            android:text="ROTATE LEFT"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btn_rotateright"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="@dimen/width_btn"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/btn_fadeinout"
+            android:layout_alignTop="@+id/btn_rotateleft"
+            android:text="ROTATE RIGHT"
+            android:textSize="13sp" />
+
+        <SeekBar
+            android:id="@+id/seekBarSpeed"
+            android:layout_width="266dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:max="5000" />
+
+        <TextView
+            android:id="@+id/text_view_seek_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            android:text="TextView" />
+
+    </RelativeLayout>
+
+</LinearLayout>

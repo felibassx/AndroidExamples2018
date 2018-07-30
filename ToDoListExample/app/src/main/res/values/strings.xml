@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Lista de Tareas</string>
+    <string name="action_setting">Configuración</string>
+    <string name="action_add">Agregar</string>
+    <string name="title_hint">Título</string>
+    <string name="description_hint">Descripción</string>
+    <string name="idea_checkbox">Idea</string>
+    <string name="important_checkbox">Importante</string>
+    <string name="todo_checkbox">Hacer</string>
+    <string name="cancel_button">Cancelar</string>
+    <string name="ok_button">Aceptar</string>
+
+    <string name="sound_checkbox">On Off</string>
+    <string name="setting_title">Configuración</string>
+    <string name="sound_title">Sonido</string>
+    <string name="animation_title">Animación</string>
+    <string name="rb_fast">Rapido</string>
+    <string name="rb_slow">Lento</string>
+    <string name="rb_none">Ninguno</string>
+
+
+</resources>

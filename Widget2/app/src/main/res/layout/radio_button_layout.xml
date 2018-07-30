@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <RadioGroup
+        android:id="@+id/rbg_grupo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/rb_uno">
+
+        <RadioButton
+            android:id="@+id/rb_uno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hombre" />
+
+        <RadioButton
+            android:id="@+id/rb_dos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Mujer" />
+
+        <RadioButton
+            android:id="@+id/rb_tres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Indefinido" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_genero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hombre" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="20dp"
+        android:background="?android:attr/listDivider" />
+
+    <Switch
+        android:id="@+id/sw_onoff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Switch" />
+
+    <TextView
+        android:id="@+id/tv_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apagado" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:background="?android:attr/listDivider" />
+
+    <CheckBox
+        android:id="@+id/ch_activo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="Activo" />
+
+    <TextView
+        android:id="@+id/tv_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activo" />
+</LinearLayout>

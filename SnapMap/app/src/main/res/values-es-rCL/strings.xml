@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Snap Map</string>
+    <string name="drawer_open">Abrir Navigator Drawer</string>
+    <string name="drawer_close">Cerrar Navigator Drawer</string>
+    <string name="enter_photo_title_placeholder">Ingrese el título de la foto</string>
+    <string name="tag1">Tag 1</string>
+    <string name="tag2">Tag 2</string>
+    <string name="tag3">Tag 3</string>
+    <string name="capture">Tomar Foto</string>
+    <string name="save">Guardar</string>
+    <string name="tags">Tags</string>
+    <string name="titles">Titulos</string>
+    <string name="show_map">Mostrar Mapa</string>
+    <string name="action_setting">Configuración</string>
+
+    <string-array name="nav_drawer_items">
+        <item>Títulos</item>
+        <item>Tags</item>
+        <item>Capturas</item>
+    </string-array>
+</resources>
